@@ -152,7 +152,7 @@ function setup() {
     //Give the blob a random y position
     //(`randomInt` is a custom function - see below)
     let y = randomInt(blob.height, app.stage.height - blob.height);
-    blob.vy = (Math.random() - 0.5) * 5;
+    blob.vy = (Math.random() - 0.5) * 15;
     //Set the blob's position
     blob.x = x;
     blob.y = y;
